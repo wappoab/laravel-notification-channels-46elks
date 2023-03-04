@@ -2,7 +2,7 @@
 
 namespace NotificationChannels\FortySixElks;
 
-use Illuminate\Events\Dispatcher;
+use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Notifications\Events\NotificationFailed;
 use Illuminate\Notifications\Notification;
 use NotificationChannels\FortySixElks\Exceptions\CouldNotUseNotification;
